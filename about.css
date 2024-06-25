@@ -7,14 +7,8 @@ html {
   box-sizing: border-box;
 }
 
-.team{
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-}
 
-.card {
+.my_card {
   height: 500px;
   display: flex;
   align-items: center;
@@ -35,9 +29,10 @@ html {
   color: white;
 }
 
-.container {
-  width: 33vw;
+.box {
+  width: 100%;
   padding: 16px;
+  
 }
 
 
@@ -61,12 +56,7 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
+
 
 
 
