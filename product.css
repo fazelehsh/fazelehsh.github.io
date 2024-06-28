@@ -161,3 +161,9 @@ font-family: iraniansans;
   padding: 16px;
   color: white;
 }
+
+.product_title
+{
+  font-size: 17px;
+  margin-top: 8px;
+}
